@@ -1,0 +1,26 @@
+<!DOCTYPE webproject>
+<webproject>
+  <project type="Local" name="WebKMyMoney" encoding="utf8" >
+    <upload/>
+    <author>Eric A. Bonney</author>
+    <email>eric.bonney@vanhlebarsoftware.com</email>
+    <defaultDTD>-//W3C//DTD HTML 4.01 Transitional//EN</defaultDTD>
+    <item url="" uploadstatus="1" />
+    <templates>templates/</templates>
+    <toolbars>toolbars/</toolbars>
+    <item url="db.inc" uploadstatus="1" />
+    <item url="webkmymoney.php" uploadstatus="1" />
+    <annotations/>
+    <item url="templates/" uploadstatus="1" />
+    <item url="webkmymoney.css" uploadstatus="1" />
+    <item url="templates/webkmmtransactions.tpl" uploadstatus="1" />
+    <item url="webkmymoneytrans.php" uploadstatus="1" />
+    <item url="templates/webkmmmain.tpl" uploadstatus="1" />
+    <item url="webkmymoneyfunctions.php" uploadstatus="1" />
+    <item url="webkmymoney_mobile.css" uploadstatus="1" />
+    <item url="index.php" uploadstatus="1" />
+    <item url="templates/index.tpl" uploadstatus="1" />
+    <item url="webkmymoneylogout.php" uploadstatus="1" />
+    <item url="templates/webkmmsplit.tpl" uploadstatus="1" />
+  </project>
+</webproject>

@@ -1,0 +1,9 @@
+This was a beginning project meant for a web portal access to a KMyMoney file. It assumes that the file is a MYSQL database
+stored somewhere where the user will have access to it. There is a minimal css file for a mobile interface as well as a 
+normal website interface. This is only setup as a read-only at this point in the project. It was suggested on the kmm-developers
+mailing list to create an interface that would depend directly on the libraries exposed by KMyMoney itself. I started looking
+at how to implement such a feature with PHP and was never able to complete the process.
+
+Please feel free to fork this project and or contribute back to it here. In the near future I may have additional time to help move this
+forward again. If you have any questions, drop me a note. This was a lot of a learning process for me in PHP also, so I am sure there are
+many items that can be made much cleaner.

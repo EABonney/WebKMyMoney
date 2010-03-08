@@ -1,0 +1,141 @@
+
+/*
+CSS for Web KMyMoney
+*/
+
+
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    background: #e2edff url(images/background.png) repeat;
+    line-height: 125%;
+    padding: 0;
+    margin: 0;
+  }
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  }
+
+h1 {
+    font-size: x-large;
+    background-color: #99ddff;
+    color: black;
+    padding-top: .5em;
+    padding-bottom: .2em;
+    padding-left: .4em;
+    margin: 0;
+    background: #99aaff url(images/titlelabel_background-1.png) no-repeat right;
+}
+
+h2 {
+    color: navy;
+    font-size: 130%;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h3 {
+    color: navy;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+h4 {
+    color: navy;
+    font-size: 90%;
+    font-weight: normal;
+}
+
+a {
+    font-weight: bold;
+    color: navy;
+}
+
+a:visited {
+    color: black;
+}
+a:hover {
+    font-style: italic;
+    color: red;
+}
+
+a:link {
+    color: black;
+}
+
+table.transactions {
+    font-size: small;
+    border-collapse: collapse;
+}
+
+table.transactions th {
+    font-size: medium;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+table.transactions tr.odd {
+    background-color: #33ccff;
+}
+
+table.transactions tr.even {
+    background-color: #3366ff;
+}
+
+col#date {
+    width: 100px;
+}
+
+col#name {
+    width: 300px;
+}
+
+col#amount {
+    width: 100px;
+}
+
+col#account {
+    width: 300px;
+}
+
+col#balance {
+    width: 100px;
+}
+
+form.login fieldset {
+    text-align: center;
+    width: 360px;
+}
+
+form.login label.fixedwidth {
+    display: block;
+    width: 150px;
+    float: left;
+}
+
+form.login .buttonarea {
+    text-align: center;
+    padding: 4px;
+}
+
+form.login .buttonarea input{
+    margin-top: .5em;
+    width: 200px;
+}
+
+/*
+This section deals with the position of items on the screen.
+It uses absolute positioning - fixed x and y coordinates measured
+from the top-left corner of the browser's content display.
+*/
+#bodycontent {
+    position: absolute;
+}
+
+#bodycontent {
+    top: 50px;
+    left: 400px;
+}

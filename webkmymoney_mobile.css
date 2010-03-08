@@ -1,0 +1,151 @@
+/*
+CSS for Mobile version of Web KMyMoney
+*/
+
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    background: #e2edff;
+    line-height: 125%;
+    padding: 0;
+    margin: 0;
+  }
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  }
+
+h1 {
+    font-size: medium;
+    color: black;
+    padding-top: .5em;
+    padding-bottom: .2em;
+    padding-left: .4em;
+    margin: 0;
+    background: #99aaff url(images/titlelabel_mobile.png) no-repeat right;
+}
+
+h2 {
+    color: navy;
+    font-size: 90%;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h3 {
+    color: navy;
+    font-size: 75%;
+    font-weight: normal;
+}
+
+h4 {
+    color: navy;
+    font-size: 65%;
+    font-weight: normal;
+}
+a {
+    font-weight: bold;
+    color: navy;
+}
+
+a:visited {
+    color: black;
+}
+a:hover {
+    font-style: italic;
+    color: red;
+}
+
+a:link {
+    color: black;
+}
+
+#header {
+    border-top: 3px solid #7da5d8;
+}
+
+table.accountlist {
+    font-size: small;
+}
+
+table.accountlist th {
+    font-size: medium;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+table.transactions {
+    font-size: x-small;
+    border-collapse: collapse;
+}
+
+table.transactions th {
+    font-size: small;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+table.transactions tr.odd {
+    background-color: #33ccff;
+}
+
+table.transactions tr.even {
+    background-color: #3366ff;
+}
+
+col#name {
+    width: 175px;
+}
+
+col#account {
+    width: 193px;
+}
+
+col#balance {
+    width: 100px;
+}
+
+form.login fieldset {
+    width: 280px;
+}
+
+form.login label.fixedwidth {
+    display: block;
+    width: 120px;
+    float: left;
+}
+
+form.login input {
+    width: 145px;
+}
+
+form.login .buttonarea {
+    text-align: center;
+    padding: 4px;
+}
+
+form.login .buttonarea input{
+    margin-top: .5em;
+    width: 75px;
+}
+
+/*
+This section deals with the position of items on the screen.
+It uses absolute positioning - fixed x and y coordinates measured
+from the top-left corner of the browser's content display.
+*/
+
+#header, #bodycontent {
+    position: absolute;
+}
+
+#header {
+    width: 100%;
+}
+
+#bodycontent {
+    top: 30px;
+    left: 10px;
+}
